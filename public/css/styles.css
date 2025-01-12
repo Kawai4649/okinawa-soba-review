@@ -1,0 +1,76 @@
+/* フォントファミリーの設定 */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+@keyframes backgroundChange {
+    0% {
+        background-image: url('R.jpg');
+    }
+    50% {
+        background-image: url('1712973192929.webp');
+    }
+    100% {
+        background-image: url('shimujou-1.jpg');
+    }
+}
+
+body {
+    min-height: 100vh;  
+    animation: backgroundChange 10s infinite;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+
+
+.navbar {
+    background-color: #003366!important; 
+    border-bottom: 2px solid #8B4513!important; 
+}
+
+.navbar-brand {
+    color: #F5DEB3!important; 
+    font-family: 'Kosugi Maru', sans-serif; 
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    color: #F5DEB3!important; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #8B4513!important; 
+}
+
+
+.dropdown-menu {
+    background-color: #F5F5F5!important; 
+    border: 1px solid #8B4513!important; 
+}
+
+.dropdown-item {
+    color: #333; 
+}
+
+.dropdown-item:hover {
+    background-color: #8B4513; 
+    color: #F5DEB3; 
+}
+
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border: 1px solid #DDDDDD; 
+    border-radius: 5px; 
+}
+
+h1, h2, h3 {
+    color: #2E8B57; 
+    font-family: 'Kosugi Maru', sans-serif; 
+}
+
+

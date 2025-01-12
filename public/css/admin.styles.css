@@ -1,0 +1,31 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif!important;
+    background-color: #e0f7fa; 
+    color: #00796b; 
+}
+.navbar {
+    background-color: #00bcd4!important; 
+}
+.navbar-brand {
+    font-family: 'Pacifico', cursive; 
+    color: #ffffff!important;
+}
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+}
+.navbar-nav .nav-link:hover {
+    color: #fdd835 !important; 
+}
+.dropdown-menu {
+    background-color: #ffffff;
+    color: #00796b; 
+}
+.dropdown-item:hover {
+    background-color: #e0f2f1;
+}
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
